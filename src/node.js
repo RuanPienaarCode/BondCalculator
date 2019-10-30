@@ -7,7 +7,7 @@ const staticDirPath = path.join(__dirname, '../public/')
 
 
 const port = process.env.PORT || 3000
-app.set('view engine', 'hbs')
+// app.set('view engine', 'hbs')
 app.use(express.static(staticDirPath))
 
 app.get('', (req, res) => {
