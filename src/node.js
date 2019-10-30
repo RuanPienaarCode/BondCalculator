@@ -10,13 +10,13 @@ const port = process.env.PORT || 3000
 // app.set('view engine', 'hbs')
 app.use(express.static(staticDirPath))
 
-app.get('', (req, res) => {
+// app.get('', (req, res) => {
 
-    res.render('index', {
-        title: 'Morgage Calculator',
-        name: 'Ruan Pienaar'
-    })
-})
+//     res.render('index', {
+//         title: 'Morgage Calculator',
+//         name: 'Ruan Pienaar'
+//     })
+// })
 
 
 app.listen(port, () => {
