@@ -1,0 +1,30 @@
+{
+  "name": "bondcalc_name",
+  "version": "1.0.0",
+  "description": "Bond Calculator",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RuanPienaarCode/BondCalculator.git"
+  },
+  "keywords": [
+    "Bond",
+    "calculator"
+  ],
+  "author": "Ruan Pienaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuanPienaarCode/BondCalculator/issues"
+  },
+  "homepage": "https://github.com/RuanPienaarCode/BondCalculator#readme"
+}
